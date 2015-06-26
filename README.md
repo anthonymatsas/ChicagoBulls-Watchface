@@ -1,4 +1,4 @@
-# skyline
+# chicagobulls-watchface
 A watch-face app made for the Pebble.
 
 Features:
