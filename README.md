@@ -2,9 +2,10 @@
 A watch-face app made for the Pebble.
 
 Features:
-- Battery statues
+- Battery status
 - Local weather
 - Time
 - Date
+- Chicago Bulls logo
 
 ![alt tag](imgs/preview.png)
