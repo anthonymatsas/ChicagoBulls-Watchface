@@ -8,4 +8,4 @@ Features:
 - Date
 - Chicago Bulls logo
 
-![alt tag](imgs/preview.png)
+![alt tag](imgs/github_img.png)
