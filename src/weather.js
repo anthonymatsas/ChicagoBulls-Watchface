@@ -7,8 +7,6 @@ var xhrRequest = function (url, type, callback) {
   xhr.send();
 };
 
-
-
 function locationSuccess(pos) {
   // Make URL
   var url = 'http://api.openweathermap.org/data/2.5/weather?lat=' +

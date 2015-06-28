@@ -59,13 +59,13 @@ static void main_window_load(Window *window) {
   text_layer_set_text(s_time_layer, "00:00");
   
   // DateLayer
-  s_date_layer = text_layer_create(GRect(-2, 101, 144, 25));
+  s_date_layer = text_layer_create(GRect(-3, 101, 144, 25));
   text_layer_set_background_color(s_date_layer, GColorClear);
   text_layer_set_text_color(s_date_layer, GColorWhite);
   text_layer_set_text(s_date_layer, "ddd dd");
   
   // BatteryLayer
-  s_battery_layer = text_layer_create(GRect(-2, 0, 144, 25));
+  s_battery_layer = text_layer_create(GRect(-3, 0, 144, 25));
   text_layer_set_background_color(s_battery_layer, GColorClear);
   text_layer_set_text_color(s_battery_layer, GColorWhite);
   
@@ -73,7 +73,7 @@ static void main_window_load(Window *window) {
   battery_handler(battery_state_service_peek());
   
   // Create GFonts
-  s_time_font = fonts_load_custom_font(resource_get_handle(RESOURCE_ID_FONT_PERFECT_BOLD_DOS_45));
+  s_time_font = fonts_load_custom_font(resource_get_handle(RESOURCE_ID_FONT_PERFECT_BOLD_DOS_48));
   s_date_font = fonts_load_custom_font(resource_get_handle(RESOURCE_ID_FONT_PERFECT_DOS_BEBAS_12));
   s_battery_font = fonts_load_custom_font(resource_get_handle(RESOURCE_ID_FONT_PERFECT_DOS_BEBAS_10));
 
@@ -224,4 +224,3 @@ int main(void) {
   app_event_loop();
   deinit();
 }
-
