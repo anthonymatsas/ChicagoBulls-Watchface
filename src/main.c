@@ -59,13 +59,13 @@ static void main_window_load(Window *window) {
   text_layer_set_text(s_time_layer, "00:00");
   
   // DateLayer
-  s_date_layer = text_layer_create(GRect(0, 101, 144, 25));
+  s_date_layer = text_layer_create(GRect(-2, 101, 144, 25));
   text_layer_set_background_color(s_date_layer, GColorClear);
   text_layer_set_text_color(s_date_layer, GColorWhite);
   text_layer_set_text(s_date_layer, "ddd dd");
   
   // BatteryLayer
-  s_battery_layer = text_layer_create(GRect(0, 0, 144, 25));
+  s_battery_layer = text_layer_create(GRect(-2, 0, 144, 25));
   text_layer_set_background_color(s_battery_layer, GColorClear);
   text_layer_set_text_color(s_battery_layer, GColorWhite);
   
@@ -91,7 +91,7 @@ static void main_window_load(Window *window) {
   layer_add_child(window_get_root_layer(window), text_layer_get_layer(s_battery_layer));
   
   // TemperatureLayer
-  s_weather_layer = text_layer_create(GRect(0, 118, 144, 25));
+  s_weather_layer = text_layer_create(GRect(-2, 118, 144, 25));
   text_layer_set_background_color(s_weather_layer, GColorClear);
   text_layer_set_text_color(s_weather_layer, GColorWhite);
   text_layer_set_text_alignment(s_weather_layer, GTextAlignmentRight);

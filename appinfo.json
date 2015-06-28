@@ -12,6 +12,12 @@
     "resources": {
         "media": [
             {
+                "file": "images/logo.png",
+                "menuIcon": true,
+                "name": "IMAGE_LOGO",
+                "type": "png"
+            },
+            {
                 "file": "fonts/BEBAS___.TTF",
                 "name": "FONT_PERFECT_DOS_BEBAS_10",
                 "type": "font"
