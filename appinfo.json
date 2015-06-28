@@ -1,0 +1,62 @@
+{
+    "appKeys": {
+        "KEY_CONDITIONS": 1,
+        "KEY_TEMPERATURE": 0
+    },
+    "capabilities": [
+        "location"
+    ],
+    "companyName": "tonymatsas",
+    "longName": "Chicago Bulls",
+    "projectType": "native",
+    "resources": {
+        "media": [
+            {
+                "file": "fonts/BEBAS___.TTF",
+                "name": "FONT_PERFECT_DOS_BEBAS_10",
+                "type": "font"
+            },
+            {
+                "file": "fonts/BEBAS___.TTF",
+                "name": "FONT_PERFECT_DOS_BEBAS_12",
+                "type": "font"
+            },
+            {
+                "file": "fonts/All Star Resort.ttf",
+                "name": "FONT_PERFECT_BOLD_DOS_10",
+                "type": "font"
+            },
+            {
+                "file": "fonts/All Star Resort.ttf",
+                "name": "FONT_PERFECT_BOLD_DOS_45",
+                "type": "font"
+            },
+            {
+                "file": "fonts/All Star Resort.ttf",
+                "name": "FONT_PERFECT_DOS_16",
+                "type": "font"
+            },
+            {
+                "file": "fonts/All Star Resort.ttf",
+                "name": "FONT_PERFECT_DOS_14",
+                "type": "font"
+            },
+            {
+                "file": "images/chibg2.png",
+                "name": "IMAGE_BG",
+                "type": "png"
+            }
+        ]
+    },
+    "sdkVersion": "3",
+    "shortName": "ChicagoBulls",
+    "targetPlatforms": [
+        "aplite",
+        "basalt"
+    ],
+    "uuid": "581dbce6-c943-479e-aebd-25690b3d9863",
+    "versionLabel": "0.1",
+    "watchapp": {
+        "watchface": true
+    }
+}
