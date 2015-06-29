@@ -53,7 +53,7 @@ static void main_window_load(Window *window) {
   layer_add_child(window_get_root_layer(window), bitmap_layer_get_layer(s_background_layer));
   
   // TimeLayer
-  s_time_layer = text_layer_create(GRect(0, 120, 141, 50));
+  s_time_layer = text_layer_create(GRect(2, 120, 141, 50));
   text_layer_set_background_color(s_time_layer, GColorClear);
   text_layer_set_text_color(s_time_layer, GColorWhite);
   text_layer_set_text(s_time_layer, "00:00");
@@ -73,7 +73,7 @@ static void main_window_load(Window *window) {
   battery_handler(battery_state_service_peek());
   
   // Create GFonts
-  s_time_font = fonts_load_custom_font(resource_get_handle(RESOURCE_ID_FONT_PERFECT_BOLD_DOS_48));
+  s_time_font = fonts_load_custom_font(resource_get_handle(RESOURCE_ID_FONT_PERFECT_BOLD_DOS_47));
   s_date_font = fonts_load_custom_font(resource_get_handle(RESOURCE_ID_FONT_PERFECT_DOS_BEBAS_12));
   s_battery_font = fonts_load_custom_font(resource_get_handle(RESOURCE_ID_FONT_PERFECT_DOS_BEBAS_10));
 

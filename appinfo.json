@@ -29,7 +29,12 @@
             },
             {
                 "file": "fonts/All Star Resort.ttf",
-                "name": "FONT_PERFECT_DOS_14",
+                "name": "FONT_PERFECT_BOLD_DOS_10",
+                "type": "font"
+            },
+            {
+                "file": "fonts/All Star Resort.ttf",
+                "name": "FONT_PERFECT_BOLD_DOS_47",
                 "type": "font"
             },
             {
@@ -39,12 +44,7 @@
             },
             {
                 "file": "fonts/All Star Resort.ttf",
-                "name": "FONT_PERFECT_BOLD_DOS_48",
-                "type": "font"
-            },
-            {
-                "file": "fonts/All Star Resort.ttf",
-                "name": "FONT_PERFECT_BOLD_DOS_10",
+                "name": "FONT_PERFECT_DOS_14",
                 "type": "font"
             },
             {
